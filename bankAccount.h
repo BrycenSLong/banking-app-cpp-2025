@@ -11,9 +11,10 @@ class BankAccount {
         std::string ownerFirstName;
         char ownerMiddleAnitial;
         std::string ownerLastName;
+        std::string ownerDOB;
     public:
         // Constructor to initialize an object.
-        BankAccount(int accNum, double initialBalance);
+        BankAccount(int accNum, const std::string& first, const std::string& last, const std::string& dob, double initialBalance);
 
         // Method to add funds.
         void deposit(int accNum, double initialBalance);
@@ -23,6 +24,13 @@ class BankAccount {
         
         // Method to get the current balance. 
         double getBalance() const;
+
+        // Define Public Getters? What the hell is even that?
+        int getAccountNumber() const { return accountNumber; }
+        std::string getOwnerFirstName() const { return ownerFirstName; }
+        char getOwnerMiddleAnitial() const { return ownerMiddleAnitial; }
+        std::string getOwnerLastName() const { return ownerLastName; }
+        
 };
 
 #endif // BANKACCOUNT_H

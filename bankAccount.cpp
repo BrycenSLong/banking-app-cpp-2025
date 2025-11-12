@@ -4,12 +4,12 @@
 
 // Default bank account constructor
 
-BankAccount::BankAccount(int accNum, double initialBalance) {
-    ownerFirstName = "";
-    ownerMiddleAnitial = '\0';
-    ownerLastName = "";
-    balance = 0.0;
-    accountNumber = 0;
+BankAccount::BankAccount(int accNum, const std::string& first, const std::string& last, const std::string& dob, double initialBalance) { 
+    ownerFirstName = first;
+    ownerLastName = last;
+    ownerDOB = dob;
+    balance = initialBalance;
+    accountNumber = accNum;
 
 }
 
@@ -47,3 +47,6 @@ void BankAccount::withdraw(double amount) {
 double BankAccount::getBalance() const {
     return balance;
 }
+
+
+

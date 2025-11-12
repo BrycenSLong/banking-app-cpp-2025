@@ -1,0 +1,13 @@
+Chore checklist for this project so far.
+
+- Associate account data from an assigned username(pull this information and display it.)
+- Make signup method.
+-Make A UI (potentially javascript(react), Kolton, or something else).
+- Make this a crossplatform app
+- This needs a network stack.
+- Once login and sign up are more defined, make a database for these credentials.
+- All the login and sign up logic either needs to be pushed into its own file or it needs to 
+be defined as it's own functions outside of main (THE LOGIC IN MAIN NEEDS TO BE DECLUTTERED).
+
+- Right now I am trying to tackle the logic to pull up account info as you login from the 
+class template of BankAccount.
