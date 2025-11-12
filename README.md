@@ -9,18 +9,22 @@ This document is going to be written for linux. I may make it more cross platfor
 # Dependancies
 
 *You will need npm, postgresql, GNU Make, and node-postgres*
-
+```bash
 # Install node-postgress
-```sudo apt update```
-```sudo apt install npm```
+sudo apt update
+
+sudo apt install npm
 
 # Install node-postgres
-```sudo apt update```
-``` sudo apt install pg ```
+sudo apt update
+
+sudo apt install pg
 
 # Install  GNU Make
-```sudo apt update```
-``` sudo apt install build-essentials```
+sudo apt update
+
+sudo apt install build-essentials
+```
 
 
 
